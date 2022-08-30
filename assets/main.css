@@ -5,6 +5,18 @@
   ::selection {
     background: var(--soft-coffee);
   }
+/* Scrollbar design */
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+::-webkit-scrollbar-corner {
+    background: var(--soft-coffee);
+  }
+::-webkit-scrollbar-thumb {
+    background: var(--soft-coffee);
+    border-radius: 6px;
+  }
 
 * {
     margin: 0;
