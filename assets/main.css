@@ -37,7 +37,7 @@ header {
     position: absolute;
     padding: 20px;
     background-color: #96ab9c0a;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(5px);
 }
 
@@ -59,11 +59,60 @@ header {
     background: url(./hero.webp) no-repeat center center fixed;
     background-size: cover;
     width: 100%;
-    height: 90vh;
+    height: 70vh;
 }
 
 .hero__bg {
     width: 100%;
-    height: 90vh;
-    background-color: #1b171821;
+    height: 70vh;
+    background-color: #1b17182f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__card {
+    width: 40%;
+    height: 60%;
+    background: rgba(27, 23, 24, 0.010);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5.4px);
+    -webkit-backdrop-filter: blur(5.4px);
+    border: 1px solid rgba(27, 23, 24, 0.4);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero__cardt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.hero__text {
+    font-family: var(--text);
+    color: var(--late);
+    text-align: center;
+}
+
+.p1 {
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.p2 {
+    font-weight: 800;
+    font-size: 4em;
+}
+.p3 {
+    font-weight: 400;
+    font-size: 1.8em;
+}
+.p4 {
+    font-weight: 300;
+    font-size: 1em;
 }
