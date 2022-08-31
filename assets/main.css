@@ -55,7 +55,7 @@ header {
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    padding: 20px;
+    padding: 20px 40px;
     background-color: #96ab9c0a;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(5px);
@@ -74,6 +74,7 @@ header {
     font-family: var(--text);
     font-weight: 900;
     font-size: 1.5em;
+    width: 26%;
 }
 
 .header__li {
@@ -82,7 +83,7 @@ header {
     color: var(--late);
     font-size: 16px;
     text-transform: uppercase;
-    width: 40%;
+    width: 50%;
 }
 
 .hero {
