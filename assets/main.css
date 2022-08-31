@@ -69,12 +69,20 @@ header {
     gap: 50px;
 }
 
+.logo {
+    color: var(--late);
+    font-family: var(--text);
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
 .header__li {
     font-family: var(--text);
     font-weight: 300;
     color: var(--late);
     font-size: 16px;
     text-transform: uppercase;
+    width: 40%;
 }
 
 .hero {
