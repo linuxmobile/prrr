@@ -492,6 +492,11 @@ footer a {
 }
 
 /* Starting with mediaqueries */
+@media (max-width: 1250px) {
+    .intro__imgbg {
+        width: 50%;
+    }
+}
 @media (max-width: 1200px) {
     .hero__left h1,h2 {
         font-size: 4em;
