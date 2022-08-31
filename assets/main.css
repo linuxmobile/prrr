@@ -449,6 +449,29 @@ footer {
     width: 100%;
     height: 15%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+footer p {
+    font-family: var(--text);
+    font-weight: 300;
+    font-size: 1em;
+    color: var(--cappuccin);
+}
+footer a {
+    font-family: var(--text);
+    font-weight: 300;
+    font-size: 1em;
+    color: var(--highlight-low);
+}
+
+.social {
+    display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+.social a {
+    font-size: 1.7em;
 }
