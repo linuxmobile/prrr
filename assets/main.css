@@ -496,6 +496,9 @@ footer a {
     .intro__imgbg {
         width: 50%;
     }
+    .coff__insta img {
+        width: 12%;
+    }
 }
 @media (max-width: 1200px) {
     .hero__left h1,h2 {
