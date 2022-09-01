@@ -493,11 +493,17 @@ footer a {
 
 /* Starting with mediaqueries */
 @media (max-width: 1250px) {
+    .hero__left h1,h2 {
+        font-size: 3.8em;
+    }
     .intro__imgbg {
         width: 50%;
     }
     .coff__insta img {
         width: 12%;
+    }
+    .contact {
+        height: 85vh;
     }
 }
 @media (max-width: 1200px) {
