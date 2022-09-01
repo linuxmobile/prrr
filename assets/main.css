@@ -292,11 +292,16 @@ nav {
 .cof__left {
     width: 55%;
     height: 69vh;
-    background: 
-    linear-gradient(90deg, rgba(147,136,137,0.2) 0%, rgba(89,68,70,0.6) 25%, rgba(27,23,24,1) 100%),
-    url(./coffee.gif) no-repeat center center;
-    background-size: cover;
+    position: relative;
 }
+.cof__left video {
+    height: 69vh;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    object-fit: cover;
+}
+
 .cof__right {
     width: 50%;
     height: 69vh;
@@ -305,6 +310,8 @@ nav {
     align-items: center;
     flex-direction: column;
     padding: 0 30px;
+    position: relative;
+    z-index: 2;
 }
 .cof__right h3 {
     width: 100%;
