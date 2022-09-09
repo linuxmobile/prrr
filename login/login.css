@@ -73,6 +73,85 @@ section {
   height: 100%;
   background-color: var(--coffee);
 }
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 85%;
+  height: 90%;
+}
+input {
+  border: none;
+  width: 70%;
+  margin: 20px 0;
+  padding: 5px 0;
+  background-color: transparent;
+  border-bottom: solid 1px var(--highlight-hig);
+  font-family: var(--text);
+  font-weight: 400;
+  color: var(--highlight-low);
+  font-size: 0.9em;
+}
+.submit {
+  width: 70%;
+  padding: 10px 0;
+  border-radius: 7px;
+  border: none;
+  background-color: var(--highlight-low);
+  color: var(--coffee);
+  font-family: var(--text);
+  font-weight: 800;
+  text-align: center;
+}
+.login__register {
+  width: 70%;
+  font-family: var(--text);
+  font-weight: 500;
+  color: var(--highlight-low);
+  margin: 5px 0 ;
+  font-size: 1em;
+  margin-top: 20px;
+}
+form a {
+  color: var(--highlight-hig);
+  font-family: var(--text);
+  font-weight: 500;
+  font-size: 1em;
+  display: inline;
+}
+.login__ctl {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.login__btn {
+  width: 70%;
+  padding: 10px;
+  border: solid 1px var(--highlight-hig);
+  border-radius: 10px;
+  background-color: transparent;
+  color: var(--highlight-low);
+  font-family: var(--text);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+}
+
+.login__btn i {
+  color: var(--highlight-low);
+  font-size: 1.2em;
+  text-align: center;
+  padding: 0 20px;
+}
+
 .right {
   display: flex;
   justify-content: center;
@@ -83,7 +162,9 @@ section {
 .bg {
   width: 100%;
   height: 100%;
-  background-image: url(../assets/login.webp);
+  background-image: 
+  linear-gradient(0deg, rgba(27,23,24,0.4) 0%, rgba(89,68,70,0.9) 100%),
+  url(../assets/login.webp);
   background-size: cover;
   background-repeat: no-repeat;
 }
