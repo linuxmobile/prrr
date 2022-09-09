@@ -16,9 +16,9 @@
         <div class="hamburger"><div></div></div>
         <nav>
             <ul class="header__ul">
-                <li class="header__li">Inicio</li>
-                <li class="header__li">Acerca</li>
-                <li class="header__li">Contacto</li>
+                <a href="/"><li class="header__li">Inicio</li></a>
+                <a href="#acerca"><li class="header__li">Acerca</li></a>
+                <a href="#contacto"><li class="header__li">Contacto</li></a>
             </ul>
             <a href="/" class="logo">PrrR!</a>
             <ul class="header__ul">
@@ -26,7 +26,7 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
+    <section id="visitar" class="hero">
         <div class="hero__bg">
             <div class="hero__left">
                 <h1 class="">PrrR!</h1>
@@ -43,7 +43,7 @@
             </div>
         </div>
     </section>
-    <section class="intro">
+    <section id=acerca class="intro">
         <div class="intro__text">
             <h1 class="">Encontrá tu</h1>
             <h3 class="">— Coffee Store favorito</h2>
@@ -68,7 +68,7 @@
                 <p class="">En <i>PrrR!</i>, contamos con un sistema de apadrinamiento.</p>
                 <p class="">Con tu apoyo podemos alimentar, cuidar y vacunar a nuestros amigos felinos. Además vas a contar con unos beneficios exclusivos para vos y tu familia.</p>
                 <div class="cof__btn">
-                    <a href="./register/" class="apadrinar">Apadrinar</a>
+                    <a href="/register/" class="apadrinar">Apadrinar</a>
                 </div>
             </div>
         </div>
@@ -83,16 +83,16 @@
             <img src="https://images.unsplash.com/photo-1460865332492-81fd69fc5996?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGNvZmZlZSUyMGNhdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="">
         </div>
     </section>
-    <section class="contact">
+    <section id="contacto" class="contact">
         <div class="contact__info">
             <div class="c_logo">
-                <a href="" class="a__logo">PrrR!</a>
-                <a href="" class="a__logo">Coffee Store</a></div>
+                <a href="/" class="a__logo">PrrR!</a>
+                <a href="/" class="a__logo">Coffee Store</a></div>
             <ul class="ul__logo">
-                <li class="li__logo">Visitar</li>
-                <li class="li__logo">Acerca</li>
-                <li class="li__logo">Apadrinar</li>
-                <li class="li__logo">Registrarse</li>
+                <a href="#visitar"><li class="li__logo">Visitar</li></a>
+                <a href="#acerca"><li class="li__logo">Acerca</li></a>
+                <a href="/login/"><li class="li__logo">Apadrinar</li></a>
+                <a href="/register/"><li class="li__logo">Registrarse</li></a>
             </ul>
             <form>
                 <input type="text" name="" id="name" placeholder="Your Name">
@@ -106,7 +106,7 @@
             </form>
         </div>
         <footer>
-            <p>© 2022 // <a href="">linuxmobile</a></p>
+            <p>© 2022 // <a href="https://github.com/linuxmobile">linuxmobile</a></p>
             <div class="social">
                 <a href="" class=""><i class="fa-brands fa-instagram"></i></a>
                 <a href="" class=""><i class="fa-brands fa-square-facebook"></i></a>
