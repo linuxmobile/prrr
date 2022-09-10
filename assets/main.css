@@ -712,4 +712,23 @@ footer a {
     nav {
         padding: 55px 40px;
     }
-}  
+}
+
+@media (max-width: 600px) {
+    .coff__insta img {
+        width: 24%;
+    }
+    form {
+        display: none;
+    }
+    .contact {
+        height: 85vh;
+        margin-top: 25vh;
+    }
+    .logo {
+        display: none;
+    }
+    .intro__img {
+        display: none;
+    }
+}
