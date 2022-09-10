@@ -699,4 +699,13 @@ footer a {
     form {
         display: none;
     }
+    .logo {
+        display: none;
+    }
+    .header__ul {
+        gap: 10px;
+    }
+    nav {
+        padding: 55px 40px;
+    }
 }  
