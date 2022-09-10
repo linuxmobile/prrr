@@ -732,3 +732,23 @@ footer a {
         display: none;
     }
 }
+
+/* Mobile phone */
+@media (max-width: 425px) {
+    .hero__card {
+        width: 190px;
+        height: 230px;
+    }
+    .intro__text {
+        padding: 20px 10px;
+    }
+    .cof__left {
+        width: 40%;
+    }
+    .cof__right {
+        width: 60%;
+    }
+    .cof__right h3 {
+        font-size: 2em;
+    }
+}
