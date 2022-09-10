@@ -202,3 +202,24 @@ form a {
   line-height: 25px;
   color: var(--cappuccin);
 }
+
+@media (max-width: 600px) {
+  body {
+    height: 100%;
+  }
+  section {
+    flex-direction: column-reverse;
+  }
+  .left {
+    width: 100%;
+  }
+  .bg__card {
+    margin: 50px;
+  }
+  .right {
+    width: 100%;
+  }
+  .login__btn {
+    width: 100%;
+  }
+}
