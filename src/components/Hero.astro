@@ -1,0 +1,34 @@
+---
+const isOpen = () => {
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    const day = now.getDay();
+
+    if (day === 0) {
+        return false;
+    }
+    if (day >= 1 && day <= 5) {
+        return hours >= 9 && hours <= 20;
+    }
+    if (day === 6) {
+        return hours >= 10 && hours <= 21;
+    }
+};
+const opened = 'Tenemos abierto, ¡ven por un café!';
+const closed = '¡Lo siento, estamos cerrados!';
+
+const status = isOpen() ? opened : closed;
+---
+<section class="bg-[url(/hero.webp)] bg-cover pt-16 pb-16">
+    <div class="flex items-center justify-center text-[#D8CFAE] gap-6 pt-10 px-6">
+        <div class="flex flex-col items-start max-w-xs">
+            <h1 class="text-6xl font-mona-sans font-black [font-stretch:ultra-expanded]">PrrR!</h1>
+            <h2 class="font-mona-sans text-2xl font-bold [font-stretch:ultra-expanded]">Coffee Store</h2>
+        </div>
+        <div class="flex items-center justify-center bg-[#1B1718]/30 backdrop-blur-[1px] py-4 border-[1px] border-yellow-900 rounded-md">
+            <h3 class="font-bold text-lg text-center max-w-xs">{ status }</h3>
+        </div>
+        <img src="/smile.webp" alt="" class="z-[1] fixed aspect-square w-32 -right-9 top-9">
+    </div>
+</section>
